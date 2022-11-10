@@ -10,4 +10,5 @@ urlpatterns=[
     path('timetable', views.time_table),
     path('contact', views.contact_us),
     path('about', views.about_us),
+    path('scholarship', views.scholarship),
 ]

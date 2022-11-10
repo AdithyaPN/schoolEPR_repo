@@ -26,3 +26,6 @@ def contact_us(request):
 
 def about_us(request):
     return render(request, 'schoolAdmintemplates/about.html')
+
+def scholarship(request):
+    return render(request, 'schoolAdmintemplates/scholarship.html')
