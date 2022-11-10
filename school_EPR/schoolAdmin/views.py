@@ -14,3 +14,15 @@ def add_staff(request):
 
 def view_student(request):
     return render(request, 'schoolAdmintemplates/viewstudent.html')
+
+def login_page(request):
+    return render(request, 'schoolAdmintemplates/login.html')
+
+def time_table(request):
+    return render(request, 'schoolAdmintemplates/timeTable.html')
+
+def contact_us(request):
+    return render(request, 'schoolAdmintemplates/contact.html')
+
+def about_us(request):
+    return render(request, 'schoolAdmintemplates/about.html')

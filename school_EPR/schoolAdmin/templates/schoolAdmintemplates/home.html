@@ -1,12 +1,66 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Don Public</title>
+    <link rel="stylesheet" href="{% static 'css/adminhome.css' %}">
 </head>
 <body>
-    school home page is here.....................
+    <nav>
+        <label class="logo">Don Public School</label>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Scholarships</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/timetable">Time Table</a></li>
+            <li><a href="/login">Login</a></li>
+        </ul>
+    </nav>
+    <section class="section1">
+        <h1>DON PUBLIC SCHOOL</h1>
+        <p>Thank you for considering Don Public School as a possible school for your child. From your first contact with this school, our Admissions team is on hand to answer all your questions and guide you through the enrollment and transition process at DPS. We encourage you to explore our website to find out more about our school, our academic and extracurricular programs, and to come for a visit to see our students in action. Please feel free to talk to us at any time.</p>
+        <button type="button" class="button1">Read More</button>
+        </section>
+        <section class="section2">
+            <h1>Our Specialities</h1>
+            <div class="div1">
+                <div id="d1"></div>
+                <div id="d2"></div>
+                <div id="d3"></div>
+                <div id="d4"></div>
+            </div>
+            <div class="div1">
+                <div id="d5"></div>
+                <div id="d6"></div>
+                <div id="d7"></div>
+                <div id="d8"></div>
+            </div>
+        </section>
+        <footer class="foot">
+            <div class="company">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">+91 7510367371</a></li>
+                    <li><a href="#">www.dps.com</a></li>
+                </ul>
+            </div>
+            <!-- <div class="help">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affliate policy</a></li>
+                </ul>
+            </div> -->
+        </footer>
 </body>
 </html>

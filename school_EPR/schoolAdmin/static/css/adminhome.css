@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.section1{
+    background-image: url('../images/school.jpg');
+    height: 900px;
+    background-size: cover;
+}
+.section1 h1{
+    color: rgb(223, 10, 10);
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-size: 55px;
+    margin-left: 480px;
+    text-shadow: none !important;
+}
+.section1 p{
+    color: black;
+    padding-top: 300px;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+}
+.button1{
+    margin-left: 700px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+/* .carousel-inner {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  } */
+/* .section2{
+    display: grid;
+    padding: 100px 0;
+} */
+.section2 h1{
+    color:  rgb(223, 10, 10);
+    padding-top: 0px;
+    padding-bottom: 50px;
+    font-size: 55px;
+    margin-left: 520px;
+    text-shadow: none !important;
+}
+.div1{
+    background-color: rgb(141, 126, 104);
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    height: 250px;
+    width: auto;
+    justify-content: space-around;
+}
+#d1{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/class.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d2{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/sports.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d3{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/drw.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d4{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/martial.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d5{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/lab.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d6{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/library.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d7{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/science.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d8{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/can.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foot{
+    background-color: #24262b;
+}
+.foot h2{
+    color: white;
+    margin-top: 70px;
+    margin-left: 700px;
+    padding-top: 20px;
+}
+.foot div ul{
+    list-style: none;
+    padding: 70px 0;
+}
+.foot div ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-left: 300px;
+}
+.foot div ul li a{
+    font-size: 17px;
+    color: grey;
+}
