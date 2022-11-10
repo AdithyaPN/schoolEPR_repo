@@ -37,3 +37,26 @@ nav ul li a{
 .div1{
     background-color: orchid;
 }
+.foot{
+    background-color: #24262b;
+}
+.foot h2{
+    color: white;
+    margin-top: 70px;
+    margin-left: 700px;
+    padding-top: 20px;
+}
+.foot div ul{
+    list-style: none;
+    padding: 70px 0;
+}
+.foot div ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-left: 300px;
+}
+.foot div ul li a{
+    font-size: 17px;
+    color: grey;
+}
