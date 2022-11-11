@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.about-section{
+    height: 900px;
+    background-size: cover;
+    background-color: cornflowerblue;
+}
+.about-section h2{
+    margin-left: 550px;
+    padding-top: 50px;
+    color: wheat;
+}
+.about-section p{
+    margin-top: 20px;
+    color: wheat;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foot{
+    background-color: #24262b;
+}
+.foot h2{
+    color: white;
+    margin-top: 70px;
+    margin-left: 700px;
+    padding-top: 20px;
+}
+.foot div ul{
+    list-style: none;
+    padding: 70px 0;
+}
+.foot div ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-left: 300px;
+}
+.foot div ul li a{
+    font-size: 17px;
+    color: grey;
+}
+/* .moments{
+    display: flex;
+    flex-direction:auto;
+    flex-basis: auto;
+    height: 250px;
+    width: auto;
+    justify-content: space-around;
+}
+.gal-img{
+    width: 300;
+    text-align: center;
+} */
+.div1{
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    height: 250px;
+    width: auto;
+    justify-content: space-around;
+}
+#d1{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/graph.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d2{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/lunch.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d3{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/m1000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d4{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/maths.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d5{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/activity.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d6{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/programs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d7{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/lab.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#d8{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/martial.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
